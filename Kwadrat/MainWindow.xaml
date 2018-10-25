@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kwadrat"
         mc:Ignorable="d"
-        Title="Square" Height="550" Width="700">
+        Title="Square" Height="550" Width="700" Background="LightGray">
     <Grid>
 
         <Label x:Name="LblEdge" Content="Edge" HorizontalAlignment="Left" Margin="55,47,0,0" VerticalAlignment="Top"/>
@@ -29,7 +29,7 @@
         <Button Content="Draw" HorizontalAlignment="Left" Margin="122,295,0,0" VerticalAlignment="Top" Width="120" Height="48" Click="Button_Click"/>
         <RadioButton x:Name="RbtnHide" Content="Hide" HorizontalAlignment="Left" Margin="55,418,0,0" VerticalAlignment="Top" GroupName="HidingRectangle" Checked="RbtnHide_Checked"/>
         <RadioButton x:Name="RbtnShow" Content="Show" HorizontalAlignment="Left" Margin="157,418,0,0" VerticalAlignment="Top" GroupName="HidingRectangle" Checked="RbtnShow_Checked" IsChecked="True"/>
-        <Image HorizontalAlignment="Left" Height="90" Margin="593,10,0,0" VerticalAlignment="Top" Width="90" Source="rectangle-logo.jpg" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" Height="90" Margin="592,10,0,0" VerticalAlignment="Top" Width="90" Source="rectangle-logo.jpg" Stretch="UniformToFill"/>
 
     </Grid>
 </Window>
