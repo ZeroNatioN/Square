@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwadrat", "Kwadrat\Kwadrat.csproj", "{CED95915-A918-496C-9501-9FFB57222250}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CED95915-A918-496C-9501-9FFB57222250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED95915-A918-496C-9501-9FFB57222250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED95915-A918-496C-9501-9FFB57222250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED95915-A918-496C-9501-9FFB57222250}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDF3BFC3-9FBE-4E5C-89B7-95D277FFB034}
+	EndGlobalSection
+EndGlobal
