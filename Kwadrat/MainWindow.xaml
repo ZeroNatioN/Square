@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kwadrat"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Square" Height="550" Width="700">
     <Grid>
         
+        <Label x:Name="LblEdge" Content="Edge" HorizontalAlignment="Left" Margin="55,47,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblArea" Content="Area" HorizontalAlignment="Left" Margin="55,103,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblCircuit" Content="Circuit" HorizontalAlignment="Left" Margin="55,163,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TxtEdge" HorizontalAlignment="Left" Height="23" Margin="122,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TxtEdge_TextChanged"/>
+        <TextBox x:Name="TxtArea" HorizontalAlignment="Left" Height="23" Margin="122,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="TxtCircuit" HorizontalAlignment="Left" Height="23" Margin="122,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label x:Name="LblMessage" Content="Enter edge length" HorizontalAlignment="Left" Margin="268,47,0,0" VerticalAlignment="Top" Foreground="#FFFF0303" />
+        <Button x:Name="BtnClear" Content="Clear" HorizontalAlignment="Left" Margin="122,348,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="BtnClear_Click"/>
+        <Label x:Name="LblColour" Content="Colour" HorizontalAlignment="Left" Margin="55,227,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="CmbColours" HorizontalAlignment="Left" Margin="122,231,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="Black"/>
+            <ComboBoxItem Content="Red"/>
+            <ComboBoxItem Content="Yellow"/>
+            <ComboBoxItem Content="Green"/>
+            <ComboBoxItem Content="Blue"/>
+        </ComboBox>
+        <CheckBox x:Name="ChkbTranslucent" Content="Semi-translucent" HorizontalAlignment="Left" Margin="122,275,0,0" VerticalAlignment="Top"/>
+        <Rectangle x:Name="Rectangle" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="0" Margin="268,107,0,0" Stroke="Black" VerticalAlignment="Top" Width="0"/>
+        <Button Content="Draw" HorizontalAlignment="Left" Margin="122,295,0,0" VerticalAlignment="Top" Width="120" Height="48" Click="Button_Click"/>
+        <RadioButton x:Name="RbtnHide" Content="Hide" HorizontalAlignment="Left" Margin="55,418,0,0" VerticalAlignment="Top" GroupName="HidingRectangle" Checked="RbtnHide_Checked"/>
+        <RadioButton x:Name="RbtnShow" Content="Show" HorizontalAlignment="Left" Margin="157,418,0,0" VerticalAlignment="Top" GroupName="HidingRectangle" Checked="RbtnShow_Checked"/>
+
     </Grid>
 </Window>
